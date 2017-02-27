@@ -1,6 +1,6 @@
 pipeline:
   dockerfile:
-    image: plugins/docker
+    image: alpine
     commands:
       - sed -i -e "s/latest/${TAG}/1" Dockerfile
 
