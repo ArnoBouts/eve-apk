@@ -1,4 +1,4 @@
-FROM alpine:${TAG}
+FROM alpine:latest
 
 ADD eve.sh /bin/eve.sh
 RUN chmod +x /bin/eve.sh
